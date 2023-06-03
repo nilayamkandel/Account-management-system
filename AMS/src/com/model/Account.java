@@ -4,6 +4,7 @@ public class Account {
 	private int id;
 	private String userName;
 	private int accountNo;
+	
 	public int getId() {
 		return id;
 	}
@@ -22,9 +23,9 @@ public class Account {
 	public void setAccountNo(int accountNo) {
 		this.accountNo = accountNo;
 	}
-	public Account(int id, String userName, int accountNo) {
+	public Account( String userName, int accountNo) {
 		super();
-		this.id = id;
+		
 		this.userName = userName;
 		this.accountNo = accountNo;
 	}

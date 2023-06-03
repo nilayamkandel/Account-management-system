@@ -1,9 +1,11 @@
 package com.service;
 
+import com.model.Account;
+
 public interface AccountService {
-	void AddUser();
-	void AddAmount();
-	void UpdateAmount();
-	void DeleteAmount();
-	void GetUser();
+	void AddUser(Account a);
+	void AddAmount(Account a);
+	void UpdateAmount(Account a);
+	void DeleteAmount(int index);
+	void GetUser(int userid);
 }
