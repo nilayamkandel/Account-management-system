@@ -6,10 +6,12 @@ import com.model.Account;
 import com.service.AccountService;
 import com.service.AccountServiceImpl;
 
+
 public class main {
 	
 	public static void main(String[] args) {
 		addName();
+		
 		
 	}
 	
@@ -36,9 +38,7 @@ public class main {
 		
 	}
 	
-	static void deleteMoney() {
-		
-	}
+	
 	
 	static void getAll() {
 		
