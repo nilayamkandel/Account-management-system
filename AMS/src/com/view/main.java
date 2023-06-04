@@ -11,7 +11,7 @@ public class main {
 	
 	public static void main(String[] args) {
 		addName();
-		
+		deleteMoney();
 		
 	}
 	
@@ -38,7 +38,12 @@ public class main {
 		
 	}
 	
-	
+	static void deleteMoney() {
+		AccountService as = new AccountServiceImpl();
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter  index to delete product");
+		as.DeleteAmount(sc.nextInt());
+	}
 	
 	static void getAll() {
 		
